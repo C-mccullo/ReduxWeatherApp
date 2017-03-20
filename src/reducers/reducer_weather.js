@@ -7,8 +7,7 @@ export default function(state = [], action) {
 			// return state.concat([action.payload.data])
 			// spread that state into a new array!
 			return [ action.payload.data, ...state ];
+			console.log('Action received', action);
 	}
-
-	console.log('Action received', action);
 	return state;
 }

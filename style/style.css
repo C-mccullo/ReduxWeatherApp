@@ -10,3 +10,8 @@
 svg {
 	height: 150px;
 }
+
+td:first-of-type, td:first-of-type > .google-map {
+	height: 150px;
+	width: 250px;
+}
